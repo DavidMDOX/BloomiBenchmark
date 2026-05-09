@@ -45,6 +45,28 @@ a { color: inherit; }
   width: min(240px, 52vw);
   height: auto;
 }
+
+.language-toggle {
+  display: inline-flex;
+  gap: 6px;
+  padding: 5px;
+  margin-bottom: 14px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid #dbe4ef;
+  border-radius: 999px;
+}
+.language-toggle button {
+  border: 0;
+  background: transparent;
+  color: #475569;
+  padding: 7px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+.language-toggle button.active {
+  background: #0f172a;
+  color: white;
+}
 .hero-copy h1 {
   margin: 0;
   font-size: clamp(2.4rem, 4vw, 4rem);
